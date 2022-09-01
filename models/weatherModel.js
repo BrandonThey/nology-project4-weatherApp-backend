@@ -11,6 +11,7 @@ export const Weather = sequelize.define("weathers", {
         primaryKey: true,
     },
     
+    //testing
     time: { //time is the time/date string of the city 
         type: Sequelize.STRING,
         allowNull: false,
